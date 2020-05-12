@@ -1,5 +1,4 @@
-# Toxicity Check | Tensorflow.js | React
-
+# Toxicity Check | Tensorflow.js | React ([toxicity-check.now.sh](https://toxicity-check.now.sh))
 
 > ## Screens
 > ![Screen 1](./screens/ss.png)

@@ -6,7 +6,8 @@ const toxicity = require('@tensorflow-models/toxicity');
 
 function App() {
 
-  let initial_text = "you're stupid!";
+  // let initial_text = "you're stupid!";
+  let initial_text = "";
   let [model, setModel] = useState()
   let [text, setText] = useState(initial_text)
   // text for that prediction is being made
@@ -58,10 +59,10 @@ function App() {
     loadModel()
   }, [])
 
-  useEffect(() => {
-    predict()
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [model])
+  // useEffect(() => {
+  //   predict()
+  //   // eslint-disable-next-line react-hooks/exhaustive-deps
+  // }, [model])
 
   return (
 
